@@ -2,6 +2,7 @@ body {
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
+  margin: 0 0 0 0;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 
 h2 {
   color: #66BFBF;
-  font-family: 'Montserrat', Montserratcursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -24,6 +25,28 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover{
+color:#eaf6f6;
+
+}
+
 .top-container {
   background-color: #EFF5F5;
   position: relative;
@@ -31,42 +54,46 @@ h3 {
 }
 
 .middle-container {
-  margin: 100px, 0;
+  margin: 100px 0;
 }
 
 .bottom-container {
   background-color: #66BFBF;
-  position: relative;
-  padding-top: 10px;
+  padding: 50px 0 20px;
 }
 
 .top-cloud {
   position: absolute;
   right: 200px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
-  left: 300px;
+  position: absolute;
+  left: 250px;
   bottom: 300px;
 }
 
-.intro{
-width:30%;
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
+.yige-image {
+  width: 15%;
 }
 
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
   border-radius: 8px;
   text-shadow: 1px 1px 3px #666666;
-  font-family: Arial;
+  font-family: Montserrat;
   color: #eaf6f6;
   font-size: 12px;
   padding: 5px 10px 5px 10px;
@@ -82,16 +109,16 @@ width:30%;
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
-.footer-link {
-  color: #11999E;
+.copywrite{
+color:#EAF6F6;
+font-size:0.75rem;
+padding:20px 0;
 }
 
 .skill-row {
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: start;
-  line-height: 2;
 }
 
 .skills1 {
